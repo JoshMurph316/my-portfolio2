@@ -15,6 +15,7 @@ import { ServicesComponent } from "./body/services/services.component";
 import { ResumeComponent } from "./body/resume/resume.component";
 import { PortfolioComponent } from "./body/portfolio/portfolio.component";
 import { HomeComponent } from "./body/home/home.component";
+import { AboutComponent } from "./body/home/about/about.component";
 import { GuruBlogComponent } from "./body/guru-blog/guru-blog.component";
 
 @NgModule({
@@ -25,6 +26,7 @@ import { GuruBlogComponent } from "./body/guru-blog/guru-blog.component";
         ContactsComponent,
         GuruBlogComponent,
         HomeComponent,
+        AboutComponent,
         PortfolioComponent,
         ResumeComponent,
         ServicesComponent,
