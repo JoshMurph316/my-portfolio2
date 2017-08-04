@@ -1,0 +1,39 @@
+.header-col {
+    padding: 0;
+}
+
+.header-container {
+    padding-top: 7%;
+    text-align: center;
+}
+
+.header-row {
+    padding-top: 4%;
+}
+
+.header-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-list-item {
+    display: inline;
+    padding: 5px;
+}
+
+.img-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: auto;
+    border-radius: 2px;
+    width: 85%;
+}
+
+.img-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+.about-row {
+    padding: 5%;
+}
