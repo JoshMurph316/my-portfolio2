@@ -1,0 +1,43 @@
+.main-text {
+    font-size: 1.7em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.subheader {
+    font-size: 1.2em;
+}
+
+.image-col {
+    padding: 0;
+}
+
+.text-col {
+    padding: 5%;
+}
+
+
+/* mid rows*/
+
+.mid-rows {
+    padding: 20px 10px;
+    background-color: #417378;
+    color: #fff;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.mid-text {
+    font-size: 1.9em;
+}
+
+
+/* footer row */
+
+.footer-rows {
+    padding: 20px 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: #417378;
+    color: #fff;
+    font-family: 'Aldrich', sans-serif;
+    text-align: center;
+}

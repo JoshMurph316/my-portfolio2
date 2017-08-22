@@ -1,12 +1,30 @@
-.resume-card {
-    padding: 4%;
+/********Skill row***********/
+
+.row {
+    margin-bottom: 35px;
 }
 
-.resume-header {
-    text-align: center;
-    padding: 25px;
+.skills-col {
+    margin-bottom: 20px;
 }
+
+
+/********Resume Btn**********/
 
 .resume-btn-container {
     text-align: center;
+    padding: 50px 0;
+}
+
+.resume-btn {
+    padding: 15px;
+    background-color: #01A2A6;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.resume-btn:hover {
+    text-decoration: none;
+    background-color: #29D9C2;
 }

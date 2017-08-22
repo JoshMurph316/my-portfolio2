@@ -1,24 +1,7 @@
-<h3>Badges</h3>
-<div class="col-xs-4">
-    <a href="#">
-        <div class="badge-card card">
-            <i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
-        </div>
-    </a>
-</div>
+<div *ngFor="let badge of badges" class="col-md-4">
 
-<div class="col-xs-4">
-    <a href="#">
-        <div class="badge-card card">
-            <i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
-        </div>
-    </a>
-</div>
+    <img class="img-responsive badge-image" src="{{ badge.src }}" alt="badge image">
 
-<div class="col-xs-4">
-    <a href="#">
-        <div class="badge-card card">
-            <i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
-        </div>
-    </a>
+    <p class="badge-name main-color">{{ badge.name }}</p>
+
 </div>

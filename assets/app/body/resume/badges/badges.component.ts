@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { BadgesService } from './badges.service';
+
 @Component({
     selector: 'app-badges',
     templateUrl: 'badges.component.html',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BadgesComponent implements OnInit {
-    constructor() { }
+    badges = [];
+    
+    constructor(private badgesService: BadgesService) {}
 
-    ngOnInit() { }
+    ngOnInit() { 
+        this.badges = this.badgesService.badges;
+    }
 }

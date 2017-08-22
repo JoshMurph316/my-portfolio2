@@ -1,0 +1,21 @@
+<h2>Kind Words</h2>
+<div class="row">
+
+    <div class="col-md-6" *ngFor="let testimonial of testimonials">
+        <div class="testimonial-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-testimonial img-responsive" src="{{ testimonial.img }}" alt="{{ testimonial.imgAlt }}">
+                </div>
+                <div class="col-md-9">
+                    <div class="testimonial-info">
+                        <p>{{ testimonial.owner }}</p>
+                        <p>{{ testimonial.company }}</p>
+                    </div>
+                </div>
+            </div>
+            <p>{{ testimonial.testimonial }}</p>
+        </div>
+    </div>
+
+</div>

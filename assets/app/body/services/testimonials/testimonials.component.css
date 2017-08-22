@@ -1,0 +1,27 @@
+.img-testimonial {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.testimonial-container {
+    padding: 10px;
+}
+
+.test-scroll-container {
+    text-align: center;
+}
+
+.test-scroll {
+    color: grey;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.test-scroll:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.test-scroll-right {}
+
+.test-scroll-left {}

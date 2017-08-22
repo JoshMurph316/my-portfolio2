@@ -1,8 +1,65 @@
+/***********************/
+
+span.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
 .about-list {
     list-style-type: none;
     padding: 0;
 }
 
+.about-row {
+    padding: 5%;
+    font-family: 'Oxygen', sans-serif;
+}
+
 .about-info {
-    padding-top: 40px;
+    padding: 5% 0;
+}
+
+.about-text {
+    font-size: 1.3em;
+    padding: 15px 0;
+}
+
+.contact-btn {
+    color: #01A2A6;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.contact-btn:hover {
+    color: #A4CFBE;
+    text-decoration: none;
+}
+
+.more-about {
+    font-style: italic;
+    color: #2F2933;
+}
+
+.more-about:hover {
+    color: #01A2A6;
+    text-decoration: none;
+}
+
+.info-item {
+    font-size: 1.5em;
+    padding: 10px 0 10px 10%;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.info-fa {
+    width: 5px;
+    padding-right: 20%;
+}
+
+
+/*  */
+
+@media screen and (min-width: 480px) {
+    .about-text {
+        padding: 15px 10px;
+    }
 }

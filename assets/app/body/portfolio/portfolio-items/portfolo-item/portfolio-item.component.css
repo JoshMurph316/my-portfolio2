@@ -1,0 +1,97 @@
+.card-padding {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.name-row {
+    padding: 30px 0;
+}
+
+.item-info {
+    padding-top: 40px;
+}
+
+.item-name {
+    font-family: 'Aldrich', sans-serif;
+    color: #01A2A6;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.item-date {
+    color: #808080;
+    font-size: .5em;
+    display: block;
+}
+
+.fa {
+    color: #01A2A6;
+    font-size: 1.5em;
+}
+
+.site-link {
+    font-family: 'Aldrich', sans-serif;
+    color: #3E423A;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.site-link:hover {
+    color: #29D9C2;
+    text-decoration: none;
+}
+
+.sub-header {
+    font-family: 'Aldrich', sans-serif;
+    color: #01A2A6;
+    font-size: 1.5em;
+}
+
+.tech-div {
+    margin-bottom: 5%;
+}
+
+.tech-list,
+.tech-list-item {
+    display: inline;
+}
+
+.tech-list-item {
+    font-size: 1.1em;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    line-height: 2.5;
+}
+
+.btn-col {
+    margin: 15% auto;
+    text-align: center;
+}
+
+.item-btn {
+    bottom: 0;
+    padding: 10px 30%;
+    background-color: #01A2A6;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.item-btn:hover {
+    background-color: #29D9C2;
+    text-decoration: none;
+}
+
+
+/*******/
+
+@media screen and (min-width: 480px) {
+    .item-name {
+        text-align: left;
+    }
+    .item-date {
+        display: inline;
+    }
+}

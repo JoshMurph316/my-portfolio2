@@ -1,5 +1,27 @@
-.progress {
-    background-color: lightgrey;
-    height: 10px;
-    width: 75%;
+.skill-col {
+    padding: 3%;
+}
+
+.skill-name {
+    color: #3E423A;
+    font-size: 1.5em;
+}
+
+.skill-subname {
+    color: #01A2A6;
+    font-size: .8em;
+}
+
+.prog-bar-container {
+    border-radius: 8px;
+    height: 15px;
+    width: 85%;
+    background-color: #B3C8C9;
+}
+
+.prog-bar {
+    border-radius: 8px;
+    height: 100%;
+    width: 50%;
+    background-color: #01A2A6;
 }

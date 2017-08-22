@@ -1,1 +1,27 @@
-<h2>portfolio</h2>
+<div class="portfolio-container container card">
+    <div class="header-rows row">
+        <h2 class="main-headers">Portfolio</h2>
+    </div>
+    <div class="sort-container hidden-sm hidden-xs">
+
+        <ul class="sort-ul">
+            <li class="sort-list">
+                <a [ngClass]="{'active-sort': current === 'all'}" class="sort-link" (click)="onSort('all')">All</a>
+            </li>
+            <li class="sort-list">
+                <a [ngClass]="{'active-sort': current === 'project'}" class="sort-link" (click)="onSort('project')">Projects</a>
+            </li>
+            <li class="sort-list">
+                <a [ngClass]="{'active-sort': current === 'sketch'}" class="sort-link" (click)="onSort('sketch')">Sketches</a>
+            </li>
+            <li class="sort-list">
+                <a [ngClass]="{'active-sort': current === 'site'}" class="sort-link" (click)="onSort('site')">Sites</a>
+            </li>
+        </ul>
+
+    </div>
+    <app-portfolio-items></app-portfolio-items>
+    <div class="btn-container">
+        <a class="portfolio-btn" target="_blank" href="https://josh-murphys-projects.herokuapp.com">Project Site</a>
+    </div>
+</div>

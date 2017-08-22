@@ -1,0 +1,15 @@
+.info-fa {
+    padding-right: 15%;
+    width: 5%;
+    color: #01A2A6;
+}
+
+.info-item {
+    font-size: 1.4em;
+    padding-top: 5%;
+}
+
+span.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}

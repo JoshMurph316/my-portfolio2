@@ -7,41 +7,41 @@ export class ExperienceService {
             name: 'Freelance Web Developer',
             date: 'Dec 16 - current',
             where: 'Remote',
-            description: 'Being a freelance developer means creating anything a client may need from a simple site to full web applications. I like freelance work because of the constant challenge.'
+            description: 'As a freelance developer I create web applications for small businesses. I enjoy the constant challenge of freelance work.'
         },
         {
-            name: 'Natinoal Field Network',
+            name: 'Client Reporting Analyst',
             date: 'Jan 17 - Jul 17',
-            where: 'NJ',
-            description: 'Being a freelance developer means creating anything a client may need from a simple site to full web applications. I like freelance work because of the constant challenge.'
+            where: 'National Field Network',
+            description: 'As a client reporter I processed CSV files and created Excel reports for our clients. My team and I also quieried databases in MS Access for specific information.'
         },
         {
             name: 'Combat Engineer',
             date: 'Mar 11 - Jul 14',
-            where: 'TX',
-            description: 'Being a freelance developer means creating anything a client may need from a simple site to full web applications. I like freelance work because of the constant challenge.'
+            where: 'United States Army',
+            description: 'As a combat engineer I learned the complex calculations used for handling explosives. The Army helped me value teamwork over idividual achievement.'
         }
     ]
     education = [
         {
-            name: 'Brookdale Community College',
+            name: 'Computer Science',
             date: 'June 15',
-            where: 'NJ',
-            description: 'some short description, Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            where: 'Brookdale Community College',
+            description: 'Computer Science has given me a better understanding of what development really is. Growing my knowledge of algorithms and programming beyond the web.',
             certification: '#'
         },
         {
             name: 'The Web Developer Bootcamp',
             date: 'Jan 17',
-            where: 'Udemy',
-            description: 'some short description, Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            where: 'Colt Steele',
+            description: 'This bootcamp covered web development from start to deployment in a node.js application.',
             certification: 'https://www.udemy.com/certificate/UC-URSJL5AZ/'
         },
         {
             name: 'Angular (Angular 2 or 4) & NodeJS - The MEAN Stack Guide',
             date: 'Apr 17',
-            where: 'Udemy',
-            description: 'some short description, Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+            where: 'Maxilian Schwarzuller',
+            description: 'This course focused on the relationship shared by elements in a MEAN stack application.',
             certification: 'https://www.udemy.com/certificate/UC-OGXVVMC0/'
         }
     ]

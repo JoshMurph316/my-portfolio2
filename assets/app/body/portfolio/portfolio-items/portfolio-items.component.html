@@ -1,0 +1,11 @@
+<div class="masonry">
+
+    <div class="portfolio-item" *ngFor="let item of items">
+
+        <a [routerLink]="['/portfolio-item']" (click)="onItemClick(item)">
+            <img src="{{ item.imgUrl }}" alt="Avatar" class="img-responsive">
+        </a>
+
+    </div>
+
+</div>

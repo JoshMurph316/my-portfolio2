@@ -15,12 +15,30 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="nav-link" [routerLink]="['home']">Home</a></li>
-                    <li><a class="nav-link" [routerLink]="['resume']">Resume</a></li>
-                    <li><a class="nav-link" [routerLink]="['services']">Services</a></li>
-                    <li><a class="nav-link" [routerLink]="['portfolio']">Portfolio</a></li>
-                    <li><a class="nav-link" [routerLink]="['guru-blog']">Guru Blog</a></li>
-                    <li><a class="nav-link" [routerLink]="['contacts']">Contact</a></li>
+                    <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['home']">Home</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['resume']">Resume</a>
+                        <div class="underline"></div>
+                    </li>
+                    <!-- <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['services']">Services</a>
+                        <div class="underline"></div>
+                    </li> -->
+                    <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['portfolio']">Portfolio</a>
+                        <div class="underline"></div>
+                    </li>
+                    <!-- <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['guru-blog']">Guru Blog</a>
+                        <div class="underline"></div>
+                    </li> -->
+                    <li class="nav-link" routerLinkActive="active-link">
+                        <a [routerLink]="['contacts']">Contact</a>
+                        <div class="underline"></div>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

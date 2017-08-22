@@ -1,0 +1,22 @@
+<div class="row">
+    <h2>Pricing</h2>
+    <div *ngFor="let plan of plans" class="col-md-4">
+
+        <ul class="plan-container">
+            <li class="plan-item">{{ plan.name }} Plan</li>
+            <li class="plan-item">{{ plan.price }}</li>
+            <li class="plan-item">{{ plan.priceInfo }}</li>
+            <li class="plan-item">{{ plan.frequency }}</li>
+            <li class="plan-item">
+                <a class="plan-link">Free Consultation</a>
+            </li>
+            <li class="plan-item">{{ plan.description }}</li>
+            <li class="plan-item" *ngFor="let include of plan.includes">Includes {{ include }}</li>
+        </ul>
+        <div class="img-plan-container">
+            <img class="img-plan img-responsive" src="/images/army-shot.jpg" alt="basic plan">
+        </div>
+
+    </div>
+</div>
+<p class="plan-info">more pricing information <a href="#">here</a></p>

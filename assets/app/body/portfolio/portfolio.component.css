@@ -1,0 +1,47 @@
+.btn-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio-btn {
+    padding: 15px;
+    background-color: #01A2A6;
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.portfolio-btn:hover {
+    text-decoration: none;
+    background-color: #29D9C2;
+}
+
+
+/* sort styles */
+
+.sort-container {
+    padding: 2%;
+}
+
+.sort-list {
+    display: inline;
+}
+
+.sort-link {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #847E7E;
+    font-size: 1.5em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.sort-link:hover {
+    color: #29D9C2;
+    cursor: pointer;
+}
+
+.active-sort {
+    color: #29D9C2;
+    cursor: none;
+}

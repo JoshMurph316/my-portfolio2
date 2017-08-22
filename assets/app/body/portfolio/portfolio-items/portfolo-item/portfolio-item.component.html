@@ -1,0 +1,34 @@
+<div class="container card-padding">
+
+    <div class="name-row row">
+        <div class="col-md-6">
+            <p class="item-name">{{ currentItem.name }}<span class="item-date">  {{ currentItem.date }}</span></p>
+            <p *ngIf="currentItem.link !== '#'" class="hidden-xs hidden-sm"><i class="fa fa-globe" aria-hidden="true"></i> <a class="site-link" target="_blank" href="{{ currentItem.link }}">Visit Site</a></p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <a target="_blank" href="{{ currentItem.link }}">
+                <img class="img-responsive" src="{{ currentItem.imgUrl }}" alt="portfolio item image">
+            </a>
+        </div>
+
+        <div class="item-info col-md-6">
+            <p class="sub-header">Description</p>
+            <p>{{ currentItem.description }}</p>
+            <div class="tech-div">
+                <p class="sub-header">Tech</p>
+                <ul class="tech-list" *ngFor="let tech of currentItem.technologies">
+                    <li class="tech-list-item">{{ tech }}</li>
+                </ul>
+            </div>
+            <div class="btn-col col-md-6">
+                <a class="item-btn" [routerLink]="['/portfolio']">Back</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>

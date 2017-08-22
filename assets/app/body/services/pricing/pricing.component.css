@@ -1,0 +1,36 @@
+.img-plan-container {}
+
+.img-plan {
+    width: 100px;
+    margin: auto;
+}
+
+.pro-span {
+    color: lightgrey;
+}
+
+.plan-container {
+    text-align: center;
+}
+
+.plan-item {
+    padding: 10px;
+}
+
+.plan-link {
+    font-size: 1.2em;
+    padding: 15px;
+    color: #000;
+    background-color: lightgray;
+}
+
+.plan-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.plan-info {
+    color: grey;
+    padding-top: 30px;
+    text-align: center;
+}

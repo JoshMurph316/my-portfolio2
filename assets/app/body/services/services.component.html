@@ -1,1 +1,26 @@
-<h2>services</h2>
+<div class="card container">
+
+    <div class="header-rows row">
+        <h1 class="main-headers">Services</h1>
+    </div>
+
+    <div class="services-row row">
+
+        <div *ngFor="let service of services" class="col-md-3">
+            <div class="service-container">
+                <div class="service-info">
+                    <p class="service-name">{{ service.name }}</p>
+                </div>
+                <img src="{{ service.img }}" alt="{{ service.imgAlt }}">
+                <div class="service-subinfo">
+                    <p class="service-description">{{ service.description }}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <app-testimonials></app-testimonials>
+
+    <app-pricing></app-pricing>
+
+</div>

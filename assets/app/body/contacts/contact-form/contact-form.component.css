@@ -1,0 +1,83 @@
+.input-border {
+    border-bottom: solid lightgrey 1px;
+}
+
+.fa-input {
+    color: #01A2A6;
+    font-size: 1.5em;
+}
+
+.input-control {
+    border: none;
+    padding: 5px 0 5px 15px;
+    color: grey;
+    font-size: 1.8em;
+    width: 94%;
+}
+
+.input-message {
+    width: 95%;
+}
+
+.input-control:focus {
+    outline: none;
+}
+
+
+/***#Radio Buttons#***/
+
+.radio-input {
+    display: none;
+}
+
+.radio-container {
+    padding: 5% 0;
+}
+
+.radio-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    color: #01A2A6;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.3em;
+    border: #01A2A6 solid 1px;
+    transition: all .3s ease-out;
+}
+
+.radio-btn:hover {
+    background-color: #29D9C2;
+    color: #fff;
+}
+
+.active {
+    background-color: #01A2A6;
+    color: #fff;
+}
+
+
+/********#^#********/
+
+
+/***#Submit Buttons#***/
+
+.btn-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.input-submit {
+    font-size: 1.6em;
+    border: none;
+    background-color: #01A2A6;
+    font-family: 'Aldrich', sans-serif;
+    color: #fff;
+    padding: 10px 30%;
+}
+
+.input-submit:hover {
+    background-color: #29D9C2;
+}
+
+
+/********#^#********/

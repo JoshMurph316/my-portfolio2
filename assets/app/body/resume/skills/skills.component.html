@@ -1,17 +1,12 @@
-<div class="col-xs-12" *ngFor="let skill of skills">
-    <h4>{{ skill.name }}</h4>
-    <p>{{ skill.subSkills }}</p>
-    <div class="progress-container">
-        <div class="progress">
-            <div class="progress-bar progress-bar-success" style="width: 35%">
-                <span class="sr-only">55% Complete (success)</span>
-            </div>
-            <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 15%">
-                <span class="sr-only">15% Complete (warning)</span>
-            </div>
-            <div class="progress-bar progress-bar-danger" style="width: 20%">
-                <span class="sr-only">20% Complete (danger)</span>
-            </div>
+<div class="row" *ngFor="let skill of skills">
+
+    <div class="col-xs-12 skill-col">
+
+        <h4 class="skill-name">{{ skill.name }} - <span class="skill-subname">{{ skill.subSkills }}</span></h4>
+        <div class="prog-bar-container">
+            <div class="prog-bar" [style.width]="skill.per"></div>
         </div>
+
     </div>
+
 </div>

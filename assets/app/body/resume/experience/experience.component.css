@@ -1,0 +1,44 @@
+/********###Exp-Edu###**********/
+
+
+/**********Exp-Edu Item*************/
+
+.e-item-container {
+    border-left: solid 2px #29D9C2;
+}
+
+.e-item {
+    font-family: 'Oxygen', sans-serif;
+    padding: 10px 15px;
+    margin: 0 0 5% 5%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    border-left: solid 2px #01A2A6;
+    font-size: 1.4em;
+    position: relative;
+}
+
+.e-item:hover {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.e-name {
+    font-size: 1.4em;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.e-date {
+    color: #807E7E;
+    float: right;
+}
+
+.e-where {
+    color: #01A2A6;
+}
+
+.e-cert {
+    font-style: italic;
+}
+
+.e-cert:hover {
+    text-decoration: none;
+}

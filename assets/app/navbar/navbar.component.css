@@ -1,4 +1,42 @@
 .navbar-default {
     background-color: inherit;
     border: none;
+    padding-bottom: 25px;
+}
+
+.nav-link a {
+    font-size: 1.4em;
+    color: #3E423A;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.nav-link a:hover {
+    color: #29D9C2;
+}
+
+.nav .active-link a {
+    color: #01A2A6;
+}
+
+
+/*underline*/
+
+.underline {
+    display: none;
+    transition: .5s all ease-in-out;
+    width: 0;
+    margin: auto;
+}
+
+.active-link .underline {
+    padding: 1px 5px;
+    background-color: #01A2A6;
+    width: 40%;
+    margin: auto;
+}
+
+@media (min-width: 750px) {
+    .underline {
+        display: block;
+    }
 }
